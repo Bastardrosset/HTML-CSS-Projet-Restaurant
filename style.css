@@ -345,6 +345,9 @@ footer {
 
   transition: 0.3s ease;
 }
+.footer-title .contact-mail:hover {
+  color: #fff;
+}
 /**************** RESPONSIVE ****************/
 @media only screen and (min-width: 600px) {
   html {
