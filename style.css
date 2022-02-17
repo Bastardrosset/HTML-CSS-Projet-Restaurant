@@ -32,6 +32,7 @@ img {
     ),
     url(/assets/header.jpg) no-repeat center/cover;
   color: #fff;
+  padding-bottom: 10rem;
 }
 .topbar {
   padding: 18px 0;
@@ -71,7 +72,7 @@ img {
   padding: 50px 0 70px 0;
   text-align: center;
 }
-.baseline-welcome {
+.baseline .baseline-welcome {
   font-family: "Pinyon Script", cursive;
   color: #c89446;
   font-size: 3rem;
@@ -91,7 +92,7 @@ img {
   text-align: center;
   display: block;
   font-weight: 300;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 /**************** MAIN ***************/
 .home-section {
@@ -215,6 +216,8 @@ img {
 .block-body a {
   color: #c89446;
 }
+.block-chef.block-img {
+}
 .reservation {
   background: -webkit-linear-gradient(
       270deg,
@@ -296,6 +299,9 @@ option {
 .recipes-list-item p {
   margin: 0;
 }
+.recipes-list-item a:hover {
+  text-decoration: underline;
+}
 .recipes-list-item:nth-child(3) {
   border-bottom: 0;
 }
@@ -313,9 +319,14 @@ option {
 /************** FOOTER *************/
 footer {
   background: #383838;
+  width: 100%;
+  display: block;
 }
 .footer-title {
   color: #c89446;
+}
+.footer-column ul {
+  padding: 0;
 }
 .footer-row ul li,
 .footer-column ul li {
@@ -345,7 +356,21 @@ footer {
 
   transition: 0.3s ease;
 }
-.footer-title .contact-mail:hover {
+#white {
+  color: #fff;
+}
+.footer-column .contact-mail:hover {
+  color: #fff;
+}
+/************** RECIPE -1 *************/
+.header.recipe-1 {
+  background: -webkit-linear-gradient(
+      200deg,
+      rgba(0, 0, 0, 0.92) 15.5%,
+      rgba(54, 54, 54, 0.5) 39%,
+      rgba(28, 28, 28, 0.4)
+    ),
+    url(./assets/burger.jpg) no-repeat center/cover;
   color: #fff;
 }
 /**************** RESPONSIVE ****************/

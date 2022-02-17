@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
         <title>Le bistrot étoilé</title>
         <meta name="viewport" content="width= device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,10 +16,10 @@
                 </div>
                 <nav class="menu">
                     <a href="/about.html" class="menu-item">A propos</a>
-                    <a href="/menu.html" class="menu-item">Menu</a>
-                    <a href="/recipes.html" class="menu-item">Recette</a>
-                    <a href="/contact.html" class="menu-item">Contact</a>
-                    <a href="/reserver.html" class="menu-item menu-button">Reserver</a>
+                    <a href="#menu" class="menu-item" >Menu</a>
+                    <a href="recipe-1.html" class="menu-item">Recette</a>
+                    <a href="mailto:contact@le-bistrot-etoile.com" class="menu-item">Contact</a>
+                    <a href="#reservation" class="menu-item menu-button">Reserver</a>
                 </nav>
             </div>
             <div class="baseline">
@@ -50,7 +50,7 @@
                         <a href="recipe.html" class="more"> Voir plus</a>
                     </div>
                 </div>
-                <div class="block block-center">
+                <div class="block block-center" id="menu">
                     <div class="block-body">
                         <h2 class="title"><span>Menu</span> certifié bio</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime fugiat, pariatur veritatis veniam voluptates cupiditate mollitia deserunt voluptatum sint. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime fugiat, pariatur veritatis veniam voluptates cupiditate mollitia deserunt voluptatum sint.</p>
@@ -111,7 +111,7 @@
                     </div>
                 </div>
         </section>
-        <section class="reservation">
+        <section class="reservation" id="reservation">
             <div class="container">
                 <div class="block block-center">
                     <div class="block-body">
@@ -146,19 +146,19 @@
                         <div class="recipes-date">
                             <span class="bolder">29</span> SEP
                         </div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odio perferendis ducimus a, obcaecati sit minus, error qui numquam consequatur reiciendis quaerat possimus. Soluta ab fugit incidunt delectus, porro error!</p>
+                        <p><a href="recipe-1.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odio perferendis ducimus a, obcaecati sit minus, error qui numquam consequatur reiciendis quaerat possimus. Soluta ab fugit incidunt delectus, porro error!</a></p>
                     </div>
                     <div class="recipes-list-item">
                         <div class="recipes-date">
                             <span class="bolder">25</span> OCT
                         </div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odio perferendis ducimus a, obcaecati sit minus, error qui numquam consequatur reiciendis quaerat possimus. Soluta ab fugit incidunt delectus, porro error!</p>
+                        <p><a href="recipe-2.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odio perferendis ducimus a, obcaecati sit minus, error qui numquam consequatur reiciendis quaerat possimus. Soluta ab fugit incidunt delectus, porro error!</a></p>
                     </div>
                     <div class="recipes-list-item">
                         <div class="recipes-date">
                             <span class="bolder">23</span> DEC
                         </div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odio perferendis ducimus a, obcaecati sit minus, error qui numquam consequatur reiciendis quaerat possimus. Soluta ab fugit incidunt delectus, porro error!</p>
+                        <p><a href="recipe-3.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque odio perferendis ducimus a, obcaecati sit minus, error qui numquam consequatur reiciendis quaerat possimus. Soluta ab fugit incidunt delectus, porro error!</a></p>
                     </div>
                 </div>
                 <a class="more" href="#">Visitez notre blog </a>
@@ -170,20 +170,20 @@
                 <div class="footer-columns">
                     <div class="footer-column">
                         <div class="footer-title">Le Bistrot Etoilé</div>
-                            <p>Vous accueil Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, consequatur!</p>
+                            <p id="white">Vous accueil Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, consequatur!</p>
                         </div>
                         <div class="footer-column">
                             <div class="footer-title">Contact & info</div>
-                                <p>La Combe</br>
+                                <p id="white">La Combe</br>
                                 73610 Aiguebelette-le-Lac</p>
                                 <a class="contact-mail"href="mailto:">contact@le-bistrot-etoile.com</a>
                         </div>
 
                     <div class="footer-column">
                             <div class="footer-title">Heures d'ouverture</div>
-                            <ul>
+                            <ul id="white">
                                 <li>Fermé le lundi</li>
-                                <li>Horaires du mardi au venderdi de 11h à 14H - 18 à 21H</li>
+                                <li>Horaires du mardi au vendredi de 11h à 14H - 18 à 21H</li>
                                 <li>Horaires du samedi de 18H à 22H</li>
                                 <li>Horaires du dimanche de 18 H à 21H</li>
                             </ul>
@@ -192,11 +192,11 @@
                 <div class="footer-row">
                     <div class="footer-title">Rejoingez-nous sur les réseaux sociaux</div>
                     <ul>
-                        <li><a href="#"><i class="fab fa-twitter" style="--btn: #1da1f2"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"style="--btn: #C13584"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"style="--btn: #FF0000"></i></a></li>
+                        <li><a href="https://twitter.com/home"><i class="fab fa-twitter" style="--btn: #1da1f2"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"style="--btn: #C13584"></i></a></li>
+                        <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"style="--btn: #FF0000"></i></a></li>
                     </ul>
-                    <span><i class="far fa-copyright">&ensp;</i> - 2022 -</span>
+                    <span id="white"><i class="far fa-copyright">&ensp;</i> - 2022 -</span>
             </div>
             </div>
         </footer>
