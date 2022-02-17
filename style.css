@@ -23,6 +23,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+ul {
+  list-style-type: none;
+}
 .header {
   background: -webkit-linear-gradient(
       200deg,
@@ -328,10 +331,6 @@ footer {
 .footer-column ul {
   padding: 0;
 }
-.footer-row ul li,
-.footer-column ul li {
-  list-style-type: none;
-}
 .footer-row .footer-title {
   text-align: center;
 }
@@ -365,13 +364,25 @@ footer {
 /************** RECIPE -1 *************/
 .header.recipe-1 {
   background: -webkit-linear-gradient(
-      200deg,
-      rgba(0, 0, 0, 0.92) 15.5%,
-      rgba(54, 54, 54, 0.5) 39%,
+      270deg,
+      rgba(0, 0, 0, 0.92) 7.5%,
+      rgba(54, 54, 54, 0.5) 45%,
       rgba(28, 28, 28, 0.4)
     ),
     url(./assets/burger.jpg) no-repeat center/cover;
   color: #fff;
+}
+.block-right .block-img a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-right .block-img i {
+  position: absolute;
+  z-index: 2;
+  font-size: 4rem;
+  color: #000;
 }
 /**************** RESPONSIVE ****************/
 @media only screen and (min-width: 600px) {
