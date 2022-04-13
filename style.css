@@ -3,7 +3,7 @@
 *::before {
   box-sizing: border-box;
 }
-html {
+body{
   font-size: 16px;
 }
 .bolder {
@@ -33,13 +33,13 @@ ul {
       rgba(54, 54, 54, 0.5) 39%,
       rgba(28, 28, 28, 0.4)
     ),
-    url(/assets/header.jpg) no-repeat center/cover;
+    url(./assets/header.jpg) no-repeat center/cover;
   color: #fff;
   padding-bottom: 10rem;
 }
 .topbar {
   padding: 18px 0;
-  font-size: 0.875;
+  font-size: 0.875em;
   text-transform: uppercase;
   text-align: center;
   display: flex;
@@ -228,7 +228,7 @@ ul {
       rgba(54, 54, 54, 0.5) 39%,
       rgba(28, 28, 28, 0.4)
     ),
-    url(/assets/restaurant.jpg) no-repeat center/cover;
+    url(./assets/restaurant.jpg) no-repeat center/cover;
   color: white;
 }
 .reservation .title {
@@ -248,11 +248,11 @@ ul {
   border-radius: 0.1rem;
 }
 .reservation select {
-  background: no-repeat right 0.5rem center url(/assets/);
+  background: no-repeat right 0.5rem center url(./assets/);
 }
 .reservation input:focus,
 .reservation select:focus {
-  background: rgba(255, 255 255, 0.1);
+  background: transparent;
   border-color: #c89446;
 }
 .reservation-form {
@@ -355,7 +355,7 @@ footer {
 
   transition: 0.3s ease;
 }
-#white {
+.white {
   color: #fff;
 }
 .footer-column .contact-mail:hover {
@@ -407,7 +407,7 @@ footer {
   }
   #recipes {
     padding: 50px 0;
-    background: no-repeat top left/100vw auto url(/assets/news-bg.jpg);
+    background: no-repeat top left/100vw auto url(/assets/news_bg.jpg);
     background-size: 589px auto;
   }
   .recipes-list-item {
@@ -481,7 +481,7 @@ footer {
   }
   .home-section {
     background: top -90px right 0px url(/assets/oranges.jpg) no-repeat,
-      top 190px left 0px url(/assets/spices.jpg) no-repeat;
+    top 190px left 0px url(/assets/spices.jpg) no-repeat;
   }
   .menu-summary {
     display: block;
@@ -565,7 +565,7 @@ footer {
   }
   .reservation input:focus,
   .reservation select:focus {
-    background: rgba(255, 255 255, 0.1);
+    background: transparent;
     border-color: #c89446;
   }
   .reservation-form-row {
