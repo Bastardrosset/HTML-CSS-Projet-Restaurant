@@ -33,7 +33,7 @@ ul {
       rgba(54, 54, 54, 0.5) 39%,
       rgba(28, 28, 28, 0.4)
     ),
-    url(./assets/header.jpg) no-repeat center/cover;
+    url(../assets/header.jpg) no-repeat center/cover;
   color: #fff;
   padding-bottom: 10rem;
 }
@@ -228,7 +228,7 @@ ul {
       rgba(54, 54, 54, 0.5) 39%,
       rgba(28, 28, 28, 0.4)
     ),
-    url(./assets/restaurant.jpg) no-repeat center/cover;
+    url(../assets/restaurant.jpg) no-repeat center/cover;
   color: white;
 }
 .reservation .title {
@@ -248,7 +248,7 @@ ul {
   border-radius: 0.1rem;
 }
 .reservation select {
-  background: no-repeat right 0.5rem center url(./assets/);
+  background: no-repeat right 0.5rem center url(../assets/);
 }
 .reservation input:focus,
 .reservation select:focus {
@@ -369,7 +369,7 @@ footer {
       rgba(54, 54, 54, 0.5) 45%,
       rgba(28, 28, 28, 0.4)
     ),
-    url(./assets/burger.jpg) no-repeat center/cover;
+    url(../assets/burger.jpg) no-repeat center/cover;
   color: #fff;
 }
 .block-right .block-img a {
@@ -407,7 +407,7 @@ footer {
   }
   #recipes {
     padding: 50px 0;
-    background: no-repeat top left/100vw auto url(/assets/news_bg.jpg);
+    background: no-repeat top left/100vw auto url(../assets/news_bg.jpg);
     background-size: 589px auto;
   }
   .recipes-list-item {
@@ -480,8 +480,8 @@ footer {
     margin-bottom: 20px;
   }
   .home-section {
-    background: top -90px right 0px url(/assets/oranges.jpg) no-repeat,
-    top 190px left 0px url(/assets/spices.jpg) no-repeat;
+    background: top -90px right 0px url(../assets/oranges.jpg) no-repeat,
+    top 190px left 0px url(../assets/spices.jpg) no-repeat;
   }
   .menu-summary {
     display: block;
